@@ -10,13 +10,23 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.flex-container {
+.grid-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: inherit;
+  grid-template-areas: 
+    'logo'
+    'navbar'
+}
+
+.logo-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: inherit;
+  max-height: 300px;
 }
 
 .button-container {
@@ -45,7 +55,7 @@ html, body {
 
 #connector {
   font-size: 50px;
-  color: rgb(210, 210, 210);
+  color: black;
   margin: 10px;
 }
 
@@ -57,4 +67,30 @@ html, body {
 #mish-button-text {
   align-self: flex-end;
   font-size: 18px;
+}
+
+.nav-bar {
+  margin-top: 20px;
+  max-height: 100px;
+  text-align: center;
+}
+
+.nav-bar ul {
+  padding: 0;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  display: inline;
+}
+
+.nav-bar li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover {
+  background-color: rgba(191, 255, 0, 0.93);
 }
