@@ -4,7 +4,7 @@
 }
 
 html, body {
-  margin: 0px 5px 0px 5px;
+  margin: 0px 100px 0px 100px;
   height: 100%;
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -41,6 +41,19 @@ html, body {
 .cmd-button {
   width: 105px;
   height: 70px;
+}
+
+.logo-link {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: rgba(191, 255, 0, 0.93);
 }
 
 #cmd-button-symbol {
@@ -93,4 +106,25 @@ html, body {
 
 .nav-bar li a:hover {
   background-color: rgba(191, 255, 0, 0.93);
+}
+
+.button-container:hover {
+  background-color: rgba(191, 255, 0, 0.93);
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.content {
+  max-width: 1500px;
+}
+
+@media only screen and (max-width: 1000px) {
+  html, body {
+    margin: 0px 10px 0px 10px;
+  }
 }
