@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+html, body {
+  margin: 0px;
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: inherit;
+}
+
+.button-container {
+  padding: 0px 4px 3px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: right;
+  display: grid;
+}
+
+.cmd-button {
+  width: 105px;
+  height: 70px;
+}
+
+#cmd-button-symbol {
+  align-self: flex-start;
+  font-size: 25px;
+}
+
+#cmd-button-text {
+  align-self: flex-end;
+  font-size: 18px;
+}
+
+#connector {
+  font-size: 50px;
+  color: rgb(210, 210, 210);
+  margin: 10px;
+}
+
+.mish-button {
+  width: 100px;
+  height: 70px;
+}
+
+#mish-button-text {
+  align-self: flex-end;
+  font-size: 18px;
+}
