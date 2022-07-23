@@ -28,7 +28,7 @@
     <div class="nav-bar">
       <ul>
         <li><a href="https://github.com/cmd-mish">github</a></li>
-        <li><a href="./fullstackopen">fullstackopen</a></li>
+        <li><a href="../">fullstackopen</a></li>
         <li><a href="https://www.linkedin.com/in/popov-mikhail-al/s">linkedin</a></li>
       </ul>
     </div>
